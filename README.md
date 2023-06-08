@@ -23,6 +23,8 @@ Tech Stack:
 <h3>
 Access the app: without any modifications
 </h3>
+
+
 1. Clone the repo
 2. Run the command to install all the dependencies: 
 ```
