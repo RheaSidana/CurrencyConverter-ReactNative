@@ -1,5 +1,5 @@
 export default function envConfig() {
-  API_KEY = "FC3nSmXDaa9Ky6PHw8eiOYqMitlhAveD";
+  API_KEY = "<API_KEY>";
   const config = {
     headers: {
       apikey: API_KEY,
