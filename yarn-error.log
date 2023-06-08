@@ -1,0 +1,63 @@
+Arguments: 
+  E:\Program Files\nodeJs\node.exe E:\Program Files\yarn\bin\yarn.js add react-scripts
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jre1.8.0_271\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;E:\Program Files\Java\JDK-15\bin;E:\Program Files\Git\cmd;E:\Program Files\nodeJs\;C:\ProgramData\chocolatey\bin;E:\Program Files\bin;E:\Program Files\psql\bin;E:\Program Files\yarn\bin\;E:\Program Files\XAMPP\php;C:\ProgramData\ComposerSetup\bin;C:\Users\MAX\AppData\Roaming\edgedb\bin;E:\Program Files\Ruby27-x64\bin;C:\Users\MAX\AppData\Local\Microsoft\WindowsApps;C:\Users\MAX\.dotnet\tools;C:\opencv\build\x64\vc15\bin;;C:\Users\MAX\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MAX\AppData\Local\Coursier\data\bin;C:\Users\MAX\.dotnet\tools;C:\Users\MAX\AppData\Roaming\npm;E:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin;;C:\Users\MAX\go\bin;C:\Users\MAX\AppData\Local\Yarn\bin;C:\Users\MAX\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-native-paper/-/react-native-paper-5.8.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (E:\Program Files\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:509:28)
+      at ClientRequest.emit (node:events:390:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:763:9)
+      at Object.onceWrapper (node:events:509:28)
+      at TLSSocket.emit (node:events:402:35)
+      at TLSSocket.Socket._onTimeout (node:net:501:8)
+      at listOnTimeout (node:internal/timers:557:17)
+      at processTimers (node:internal/timers:500:7)
+
+npm manifest: 
+  {
+    "name": "currencyconverter",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "axios": "^1.3.4",
+      "expo": "^48.0.9",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.3",
+      "react-native-material-dropdown": "^0.11.1",
+      "react-native-paper": "^5.5.1",
+      "react-native-paper-dropdown": "^1.0.7",
+      "react-native-safe-area-context": "^4.5.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0",
+      "@testing-library/jest-native": "^5.4.2",
+      "@testing-library/react-native": "^12.1.2",
+      "react-test-renderer": "^18.2.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

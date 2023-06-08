@@ -1,0 +1,30 @@
+{
+  "first": {
+    "date": "2023-03-27",
+    "info": {
+      "rate": 3.644946,
+      "timestamp": 1679932924
+    },
+    "query": {
+      "amount": 5,
+      "from": "ALL",
+      "to": "AMD"
+    },
+    "result": 18.22473,
+    "success": true
+  },
+  "second": {
+    "date": "2023-03-26",
+    "info": {
+      "rate": 1.078162,
+      "timestamp": 1679835063
+    },
+    "query": {
+      "amount": 5,
+      "from": "EUR",
+      "to": "USD"
+    },
+    "result": 5.39081,
+    "success": true
+  }
+}

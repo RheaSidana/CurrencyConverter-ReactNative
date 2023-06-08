@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown renders correctly with props 1`] = `
+<MockDropDown
+  label="Select Currency"
+  list={
+    [
+      {
+        "label": "USD",
+        "value": 0,
+      },
+      {
+        "label": "EUR",
+        "value": 1,
+      },
+    ]
+  }
+  mode="outlined"
+  onDismiss={[Function]}
+  setValue={[MockFunction]}
+  showDropDown={[Function]}
+  value={0}
+  visible={false}
+/>
+`;
